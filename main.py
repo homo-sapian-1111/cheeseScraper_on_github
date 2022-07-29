@@ -18,6 +18,6 @@ for index in range(5):
 # new feature: print the second section of the page
 sec2 = page_py.sections[2]   
 sec2_text = sec2.text.split("\n")
-for index in range(5):
+for index in range(3):
     print(color(f'[{sec2.title}]', fg='blue') + f"  {sec2_text[index]}.")
 
