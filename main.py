@@ -23,6 +23,12 @@ for index in range(3):
 
 # new feature: print the third section of the page
 sec3 = page_py.sections[3]   
-sec3_text = sec2.text.split("\n")
-for index in range(4):
+sec3_text = sec3.text.split("\n")
+for index in range(1):
     print(color(f'[{sec3.title}]', fg='yellow') + f"  {sec3_text[index]}.")
+
+# new feature: print the fourth section of the page
+sec4 = page_py.sections[4]   
+sec4_text = sec4.text.split("\n")
+for index in range(1):
+    print(color(f'[{sec4.title}]', fg='red') + f"  {sec4_text[index]}.")
