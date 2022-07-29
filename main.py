@@ -21,3 +21,8 @@ sec2_text = sec2.text.split("\n")
 for index in range(3):
     print(color(f'[{sec2.title}]', fg='blue') + f"  {sec2_text[index]}.")
 
+# new feature: print the third section of the page
+sec3 = page_py.sections[3]   
+sec3_text = sec2.text.split("\n")
+for index in range(4):
+    print(color(f'[{sec3.title}]', fg='yellow') + f"  {sec3_text[index]}.")
