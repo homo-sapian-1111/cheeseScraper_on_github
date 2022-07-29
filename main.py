@@ -12,7 +12,7 @@ if not page_py.exists():
     raise ValueError("Page does not exist")
 
 summary = page_py.summary.split(".")
-for index in range(5):
+for index in range(2):
     print(f"{color('[Summary]', fg='green')}  {summary[index]}.")
 
 # new feature: print the second section of the page
