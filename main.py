@@ -31,4 +31,4 @@ for index in range(1):
 sec4 = page_py.sections[4]   
 sec4_text = sec4.text.split("\n")
 for index in range(1):
-    print(color(f'[{sec4.title}]', fg='red') + f"  {sec4_text[index]}.")
+    print(color(f'[{sec4.title}]', fg='red') + f"  {sec4_text[index]}.")        # some changes made by homo-sapian-1111
